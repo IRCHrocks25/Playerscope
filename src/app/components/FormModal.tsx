@@ -30,8 +30,18 @@ export function FormModal({ open, onOpenChange }: FormModalProps) {
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="max-w-[90vw] sm:max-w-[600px] w-full p-0 border-none bg-transparent">
-        <div className="w-full h-[593px] rounded-[32px] overflow-hidden bg-white">
-          <iframe
+        <div className="w-full rounded-[32px] overflow-hidden bg-white">
+          {/* Workshop Details Header */}
+          <div className="px-6 pt-6 pb-4 bg-white text-center">
+            <h2 className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold text-xl md:text-2xl text-gray-900 mb-2 leading-tight">
+              AI Change Management Workshop
+            </h2>
+            <p className="font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium text-base md:text-lg text-gray-700 leading-tight">
+              Saturday 14th March 2026 9:AM PST
+            </p>
+          </div>
+          <div className="h-[593px]">
+            <iframe
             src="https://l.industryrockstars.ch/widget/form/fzCQlAmoUcjf5ymPGPzp"
             style={{
               width: "100%",
@@ -53,6 +63,7 @@ export function FormModal({ open, onOpenChange }: FormModalProps) {
             data-form-id="fzCQlAmoUcjf5ymPGPzp"
             title="AI Change Management"
           />
+          </div>
         </div>
       </DialogContent>
     </Dialog>
