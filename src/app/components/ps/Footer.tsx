@@ -53,7 +53,7 @@ export function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <p>© 2026 PlayerScope<sup style={{ fontSize: '0.35em', verticalAlign: 'super', position: 'relative', top: '-0.5em' }}>TM</sup>. All rights reserved.</p>
+          <p>© 2026 PlayerScope<sup style={{ fontSize: '0.35em', verticalAlign: 'super', position: 'relative', top: '-0.5em' }}>TM</sup> Technologies Inc. All rights reserved.</p>
           <div className="footer-legal">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>
