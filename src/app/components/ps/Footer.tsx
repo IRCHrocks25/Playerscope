@@ -14,9 +14,7 @@ export function Footer() {
               built for the portal era.
             </p>
             <div className="footer-social">
-              <a href="#" className="social-btn">𝕏</a>
-              <a href="#" className="social-btn">in</a>
-              <a href="#" className="social-btn">@</a>
+              <a href="https://www.linkedin.com/in/nancylawler/" target="_blank" rel="noopener noreferrer" className="social-btn">in</a>
             </div>
           </div>
 
